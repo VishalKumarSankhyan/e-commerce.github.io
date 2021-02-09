@@ -437,7 +437,7 @@ h2{
 
 .off{
     font-size: 15px;
-    color:lime;
+    color:#26d02e;
 }
 
 .strike{
@@ -450,15 +450,42 @@ h2{
 
 
 /*card section start */
+.containe{   
+    display: flex;
+}
+.col-12 {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
 .cardmain{
     text-align: center;
 }
 .card{
+    
     display: block;
+    margin: 5px 2px;
 }
-
+.card-body {
+    padding: 10px 0px;
+}
 .image-main{
     width: 60px;
     margin-top: 15px;
+}
+.cont-2{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+.cont-2 img{
+    height: 180px;
+    width: 100%;
+}
+
+.card-title {
+    margin-bottom: 0rem;
+    font-size: 1.3rem;
+}
+p{
+    margin-bottom: 0rem;
 }
 /*card section end*/
