@@ -8,7 +8,11 @@
         max-width: 850px;
     }
 }
-
+@media(max-width:1062px){
+    .cont-2 img{
+        height: 203px!important;
+    }
+}
 @media(max-width:991px){
     .burger{
         display:block!important; 
@@ -72,6 +76,12 @@
     .main-nav-1.open{
         display: block!important;
     }
+    .containe{   
+        flex-direction: column;
+    }
+    .cont-2 img{
+        height: auto!important;
+    }
     
 }
 
@@ -90,17 +100,81 @@
         right: 25%!important;
     }
 }
+@media(max-width:579px){ 
+    .card-title {
+        margin-bottom: 0rem;
+        font-size: 1.1rem!important;
+    }
+}
+
+@media(max-width:549px){ 
+    .card-title {
+       
+        font-size: 18px!important;
+    }
+}
 
 @media(max-width:499px){ 
     .menu-btn_burger{
         right: 28%!important;
     }
+
+    .card-title {
+       
+        font-size: 17px!important;
+    }
+
+    .money{
+        font-size: 13px!important;
+    }
+    
+    .off{
+        font-size: 13px!important;
+    }
+    
+    .strike{
+        font-size: 13px!important;
+        
+    }
+    
 }
+
+@media(max-width:449px){ 
+    .image-main{
+        width: 50px!important;
+    }
+}
+
 @media(max-width:399px){ 
     .menu-btn_burger{
         right: 30%!important;
     }
 }
+
+@media(max-width:374px){ 
+    .card-title {
+        
+        font-size: 17px!important;
+    }
+
+    .money{
+        font-size: 12px!important;
+    }
+
+    .off{
+        font-size: 12px!important;
+    }
+
+    .strike{
+        font-size: 12px!important;
+        
+    }
+    .image-main{
+        width: 45px!important;
+    }
+
+}
+
 @media(max-width:369px){ 
     .menu-btn_burger{
         right: 32%!important;
@@ -112,6 +186,28 @@
         font-size: 1.0rem!important;
     }
 }
+
+@media(max-width:339px){ 
+    .card-title {
+        
+        font-size: 16px!important;
+    }
+
+    .money{
+        font-size: 11px!important;
+    }
+
+    .off{
+        font-size: 11px!important;
+    }
+
+    .strike{
+        font-size: 11px!important;
+        
+    }
+
+}
+
 @media(max-width:330px){ 
     .menu-btn_burger{
         right: 34%!important;
@@ -141,6 +237,28 @@
     .menu-btn_burger{
         right: 36%!important;
     }
+
+
+    .card-title {
+        
+        font-size: 15px!important;
+    }
+
+    .money{
+        font-size: 10px!important;
+    }
+
+    .off{
+        font-size: 10px!important;
+    }
+
+    .strike{
+        font-size: 10px!important;
+        
+    }
+    .image-main{
+        width: 40px!important;
+    }
     
 }
 @media(max-width:290px){ 
@@ -152,6 +270,30 @@
     .menu-btn_burger{
         right: 38%!important;
     }
+}
+
+@media(max-width:269px){ 
+    .card-title {
+        
+        font-size: 14px!important;
+    }
+
+    .money{
+        font-size: 9px!important;
+    }
+
+    .off{
+        font-size: 9px!important;
+    }
+
+    .strike{
+        font-size: 9px!important;
+        
+    }
+    .image-main{
+        width: 35px!important;
+    }
+
 }
 @media(max-width:259px){ 
     .menu-btn_burger{
@@ -178,6 +320,26 @@
         width: 30px;
         height: 3px;
     }
+    
+    .card-title {
+            
+        font-size: 13px!important;
+    }
+
+    .money{
+        font-size: 8px!important;
+    }
+
+    .off{
+        font-size: 8px!important;
+    }
+
+    .strike{
+        font-size: 8px!important;
+        
+    }
+    
+    
 }
 
 @media(max-width:229px){ 
