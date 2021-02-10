@@ -321,7 +321,7 @@ h2{
 /*link slider end*/
 
 .carousel-item{
-    height: auto;
+    
 }
 .carousel-indicators li {
     cursor: pointer;
@@ -333,15 +333,15 @@ h2{
     color:rgb(0, 204, 255)!important;
 }
 .image-1{
-    height: auto;
+
     width: 100%;
 }
 .image-2{
-    height: auto;
+ 
     width: 100%;
 }
 .image-3{
-    height: auto;
+
     width: 100%;
 }
 /*scroll top btn start*/
