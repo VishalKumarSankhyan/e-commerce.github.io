@@ -82,6 +82,20 @@
     .cont-2 img{
         height: auto!important;
     }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -5px!important;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+    
+
+    .carousel-control-next {
+        display: none;
+    }
     
 }
 
