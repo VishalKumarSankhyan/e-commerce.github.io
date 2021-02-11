@@ -88,12 +88,11 @@
         bottom: -5px!important;
     }
 
-    .carousel-control-prev {
+    .fa-angle-left:before {
         display: none;
+       
     }
-    
-
-    .carousel-control-next {
+    .fa-angle-right:before {
         display: none;
     }
     
