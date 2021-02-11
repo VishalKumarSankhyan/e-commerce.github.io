@@ -321,29 +321,47 @@ h2{
 /*link slider end*/
 
 .carousel-item{
+    height: auto;
     
 }
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+
+.carousel-indicators .active {
+    background-color:#02ccff!important;
+}
+
 .carousel-indicators li {
-    cursor: pointer;
-    background-color: #16c9f6!important;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color:#89def3;
 }
-.idt i{
-    cursor: pointer;
-    font-size:30px;
-    color:rgb(0, 204, 255)!important;
+
+.fa-angle-left:before {
+    font-size: 70px;
+    color: rgb(0, 204, 255)!important;
 }
+.fa-angle-right:before {
+    font-size: 70px;
+    color: rgb(0, 204, 255)!important;
+}
+
 .image-1{
+    /*height: auto;*/
+    width: 100%;
+}
 
-    width: 100%;
-}
-.image-2{
- 
-    width: 100%;
-}
-.image-3{
-
-    width: 100%;
-}
 /*scroll top btn start*/
 #myBtn{
     display: none;
@@ -461,9 +479,9 @@ h2{
     text-align: center;
 }
 .card{
-    
     display: block;
     margin: 5px 2px;
+    background-color: #fffdfd;
 }
 .card-body {
     padding: 10px 0px;
