@@ -321,7 +321,6 @@ h2{
 /*link slider end*/
 
 .carousel-item{
-    height: auto;
     
 }
 .carousel-indicators {
@@ -508,3 +507,20 @@ p{
     margin-bottom: 0rem;
 }
 /*card section end*/
+
+
+.cont{
+    text-align: center;
+    justify-content: center;
+    margin: 0px 80px;
+}
+.main-div-2{
+    display: flex;
+}
+.main-div-3{
+    display: flex;
+}
+
+.image-m{
+    width: 130px;
+}
